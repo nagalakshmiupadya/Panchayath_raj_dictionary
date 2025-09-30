@@ -67,3 +67,6 @@ Admin Module – approve/edit dictionary entries, manage user suggestions.
 Database Module – structured storage of bilingual terms and metadata.
 
 Speech Module – Whisper API integration for Kannada/English speech recognition.
+
+Website is live now!
+https://panchayath.wuaze.com/
