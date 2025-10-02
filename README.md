@@ -1,4 +1,4 @@
-📖 Introduction
+📖 Project Overview
 
 The Panchayath Raj Dictionary is a bilingual web application designed to support local governance and rural communities by simplifying access to administrative terms in both Kannada and English. The idea was to bridge the communication gap between government officials, local representatives, and citizens by providing a simple, interactive, and voice-enabled dictionary.
 
@@ -6,33 +6,31 @@ The system enables users to search for Panchayath Raj-related terminology and in
 
 🚀 Features
 
-🔍 Bilingual Search (Kannada/English) – enter a word in either language to get translations and definitions.
+- Bilingual Search (Kannada/English) – enter a word in either language to get translations and definitions.
 
-🎙️ Voice-Enabled Search – integrated with Speech-to-Text (OpenAI Whisper) for hands-free search in Kannada or English.
+- Voice-Enabled Search – integrated with Speech-to-Text (OpenAI Whisper) for hands-free search in Kannada or English.
 
-📚 Admin Approval System – new terms/definitions suggested by users must be reviewed and approved by an admin before publishing.
+- Admin Approval System – new terms/definitions suggested by users must be reviewed and approved by an admin before publishing.
 
-🗄️ Database-Driven Storage – all terms, translations, and definitions are stored in a MySQL database for scalability.
+- Database-Driven Storage – all terms, translations, and definitions are stored in a MySQL database for scalability.
 
-🌐 Responsive Design – accessible across desktops, tablets, and mobile devices.
+- Responsive Design – accessible across desktops, tablets, and mobile devices.
 
-🛡️ Secure Login System – admin authentication to manage the dictionary’s content.
+- Secure Login System – admin authentication to manage the dictionary’s content.
 
-📊 User-Friendly Interface – simple, intuitive UI for both rural citizens and officials.
+- User-Friendly Interface – simple, intuitive UI for both rural citizens and officials.
 
-🛠️ Tech Stack
+🛠️ Tools and Technologies
 
 Frontend: HTML, CSS, JavaScript (Bootstrap for responsiveness)
 
-Backend: Python (Flask/Django)
+Backend: PHP
 
 Database: MySQL (via XAMPP)
 
 APIs/Libraries:
 
 OpenAI Whisper (Speech-to-Text)
-
-Google Translate API (optional, fallback translations)
 
 Tools: XAMPP, phpMyAdmin, GitHub for version control
 
@@ -68,5 +66,3 @@ Database Module – structured storage of bilingual terms and metadata.
 
 Speech Module – Whisper API integration for Kannada/English speech recognition.
 
-Website is live now!
-https://panchayath.wuaze.com/
